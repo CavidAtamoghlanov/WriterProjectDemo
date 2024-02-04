@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "LvKO3kuLNKM+zvO91ODSEeHRf+PdekUvyKkLrxMLNyKacVZbSs/wzGs8X8dETlNm6CviN7rh3Ae6PB/IqK0mqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cavid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Cavid\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Cavid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

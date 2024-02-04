@@ -1,0 +1,60 @@
+﻿@model EntityLayer.Concretes.Writer
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<section class="main-content-w3layouts-agileits">
+    <div class="container">
+        <h3 class="tittle">Register Now</h3>
+        <div class="inner-sec">
+            <div class="login p-5 bg-light mx-auto mw-100">
+                <form method="post" asp-controller="Register" asp-action="Index">
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom01">First name</label>
+
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="" name="WriterName" >
+                            <span asp-validation-for="WriterName" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom02">Mail Address</label>
+                            <input type="email" name="WriterMail" class="form-control" id="validationDefault02" placeholder="" >
+                            <span asp-validation-for="WriterMail" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="exampleInputPassword1 mb-2">Password</label>
+                            <input type="password" class="form-control" name="WriterPassword" id="password1" placeholder="" >
+
+                            <span asp-validation-for="WriterPassword" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="exampleInputPassword2 mb-2">Image</label>
+                            <input type="text" name="WriterImage" class="form-control" id="password2" placeholder="" >
+                            <span asp-validation-for="WriterImage" class="text-danger"></span>
+
+                        </div>
+
+                    </div>
+                    <button type="submit" class="btn btn-primary submit mb-4">Register</button>
+                    <p>
+                        <a id="btn1" href="#">Oxudum ve qebul edirem</a>
+                    </p>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('#btn1').click(function () {
+            swal("Sertler","Mene hershey okaydir");
+        });
+    </script>
+
+</section>
