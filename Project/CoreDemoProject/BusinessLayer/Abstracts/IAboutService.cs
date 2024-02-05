@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Abstracts
 {
-    public interface IAboutService
+    public interface IAboutService :IGenericService<About>
     {
-        ICollection<About> GetAll();
+       
     }
 }

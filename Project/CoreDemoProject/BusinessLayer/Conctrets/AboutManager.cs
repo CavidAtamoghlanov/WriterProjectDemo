@@ -18,9 +18,31 @@ namespace BusinessLayer.Conctrets
             _aboutDal = aboutDal;
         }
 
-        public ICollection<About> GetAll()
+   
+
+        public About GetById(int id)
+        {
+           return _aboutDal.GetById(id);
+        }
+
+        public ICollection<About> GetList()
         {
             return _aboutDal.GetAll();
+        }
+
+        public void TAdd(About t)
+        {
+            _aboutDal.Insert(t);
+        }
+
+        public void TDelete(About t)
+        {
+           _aboutDal.Delete(t);
+        }
+
+        public void TUpdate(About t)
+        {
+           _aboutDal.Update(t);
         }
     }
 }

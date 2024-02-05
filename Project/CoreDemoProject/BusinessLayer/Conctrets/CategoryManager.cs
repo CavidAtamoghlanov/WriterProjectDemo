@@ -14,29 +14,32 @@ namespace BusinessLayer.Conctrets
         {
             _categoryDal = categoryDal;
         }
-        public void AddCategory(Category category)
-        {
-            _categoryDal.Insert(category);      
-        }
 
-        public ICollection<Category> AllCategory()
-        {
-            return _categoryDal.GetAll();
-        }
 
-        public void DeleteCategory(Category category)
-        {
-            _categoryDal.Delete(category);
-        }
 
         public Category GetById(int id)
         {
             return _categoryDal.GetById(id);
         }
 
-        public void UpdateCategory(Category category)
+        public ICollection<Category> GetList()
         {
-         _categoryDal.Update(category);
+            return _categoryDal.GetAll();
+        }
+
+        public void TAdd(Category t)
+        {
+            _categoryDal.Insert(t);
+        }
+
+        public void TDelete(Category t)
+        {
+            _categoryDal.Delete(t);
+        }
+
+        public void TUpdate(Category t)
+        {
+            _categoryDal.Update(t);
         }
     }
 }
