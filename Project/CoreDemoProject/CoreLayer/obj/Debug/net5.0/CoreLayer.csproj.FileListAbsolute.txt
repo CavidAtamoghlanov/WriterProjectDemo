@@ -21,3 +21,15 @@ C:\Users\Cavid\Documents\WebAppWriterDemo-master\Project\CoreDemoProject\CoreLay
 C:\Users\Cavid\Documents\WebAppWriterDemo-master\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\refint\CoreLayer.dll
 C:\Users\Cavid\Documents\WebAppWriterDemo-master\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
 C:\Users\Cavid\Documents\WebAppWriterDemo-master\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.json
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\CoreLayer.sourcelink.json
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\refint\CoreLayer.dll
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll

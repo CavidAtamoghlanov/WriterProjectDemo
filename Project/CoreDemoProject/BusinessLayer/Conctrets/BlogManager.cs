@@ -28,6 +28,11 @@ namespace BusinessLayer.Conctrets
 			return _blogDal.GetAll();
 		}
 
+		public ICollection<Blog> GetLast3Blog()
+		{
+			return _blogDal.GetAll().Take(3).ToList();
+		}
+
 		public void DeleteBlog(Blog blog)
 		{
 			throw new NotImplementedException();

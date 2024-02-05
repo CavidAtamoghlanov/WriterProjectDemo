@@ -536,3 +536,7 @@ C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProje
 C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\CoreDemoProject.pdb
 C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\CoreDemoProject.genruntimeconfig.cache
 C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\ref\CoreDemoProject.dll
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Views\Writer\Index.cshtml.g.cs
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Views\Writer\WriterProfile.cshtml.g.cs
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Views\Writer\WriterMail.cshtml.g.cs
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Views\Shared\Components\BlogLast3Post\Default.cshtml.g.cs
