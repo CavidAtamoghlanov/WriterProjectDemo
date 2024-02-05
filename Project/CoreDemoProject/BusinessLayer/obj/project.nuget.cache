@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ogluBIbgCiizq0UmigcadfLJoQtaDs9wnuu49vr8Moxbh2Cpb7ekEJRPP6ZdU9n1jaY1pDepN5eGmpQmMSmy7A==",
+  "dgSpecHash": "jZuEt4qa7Ad1egbgshqGJrZo9/PJVPgks4SfHoMvVVYFItdXuCz6d5Gj8WQJdIi0ZkQW/alX1iObzE3pPW6xgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cavid\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\Cavid\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",

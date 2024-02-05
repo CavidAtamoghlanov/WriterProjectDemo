@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M9Z5J4KrWoBSrdHxOOY4pRcogvsiLlAGijUW3TbMzXrbYeLbLCoEsO0gYkEs/1fXkLqBRt4jT6Cwx0AVflQXzw==",
+  "dgSpecHash": "J+dBjlwMW3MbkDJJxli2+5fJNYdo1649REXrFNbmknKSAN5TiD8aGXutAeWZBeffwm48cOmdRz5m8YcBBbgMCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cavid\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Cavid\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

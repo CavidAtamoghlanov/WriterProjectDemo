@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\CoreLayer\\CoreLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\CoreLayer\\CoreLayer.csproj",
       "projectName": "CoreLayer",
-      "projectPath": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\CoreLayer\\CoreLayer.csproj",
+      "projectPath": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\CoreLayer\\CoreLayer.csproj",
       "packagesPath": "C:\\Users\\Cavid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\CoreLayer\\obj\\",
+      "outputPath": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Cavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,20 +56,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

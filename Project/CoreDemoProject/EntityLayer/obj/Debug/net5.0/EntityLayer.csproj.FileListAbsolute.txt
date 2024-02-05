@@ -21,3 +21,15 @@ C:\Users\Cavid\Documents\WebAppWriterDemo-master\Project\CoreDemoProject\EntityL
 C:\Users\Cavid\Documents\WebAppWriterDemo-master\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
 C:\Users\Cavid\Documents\WebAppWriterDemo-master\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
 C:\Users\Cavid\Documents\WebAppWriterDemo-master\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\EntityLayer.sourcelink.json
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll

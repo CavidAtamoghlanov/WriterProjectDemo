@@ -7626,11 +7626,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\CoreDemoProject\\CoreDemoProject.csproj",
+      "projectUniqueName": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\CoreDemoProject\\CoreDemoProject.csproj",
       "projectName": "CoreDemoProject",
-      "projectPath": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\CoreDemoProject\\CoreDemoProject.csproj",
+      "projectPath": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\CoreDemoProject\\CoreDemoProject.csproj",
       "packagesPath": "C:\\Users\\Cavid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\CoreDemoProject\\obj\\",
+      "outputPath": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\CoreDemoProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Cavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7647,14 +7647,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\Cavid\\Documents\\WebAppWriterDemo-master\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
