@@ -34,6 +34,11 @@ namespace BusinessLayer.Conctrets
             return _blogDal.GetAllWithCategory();
         }
 
+        public ICollection<Blog> GetAllWithCategoryByWriter(int id)
+        {
+            return _blogDal.GetAllWithCategoryByWriter(id);
+        }
+
         public Blog GetById(int id)
         {
             return _blogDal.GetById(id);
