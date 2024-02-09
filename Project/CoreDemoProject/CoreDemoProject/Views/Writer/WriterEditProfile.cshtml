@@ -1,0 +1,77 @@
+﻿@using EntityLayer.Concretes
+@model Writer
+@{
+    ViewData["Title"] = "WriterEditProfile";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Writer Profile Edit</h4>
+            <form class="forms-sample" asp-action="WriterEditProfile" asp-controller="Writer" method="post">
+
+                <div class="form-group" hidden>
+                    <label for="exampleInputName1">Id</label>
+                    <input type="text" class="form-control" value="@Model.WriterID" name="WriterID" id="exampleInputName1" placeholder="Name">
+                    <!-- Validation Error -->
+                    <span asp-validation-for="WriterName" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="exampleInputName1">Name</label>
+                    <input type="text" class="form-control" value="@Model.WriterName" name="WriterName" id="exampleInputName1" placeholder="Name">
+                    <!-- Validation Error -->
+                    <span asp-validation-for="WriterName" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="exampleInputEmail3">Email address</label>
+                    <input type="email" class="form-control" value="@Model.WriterMail" name="WriterMail" id="exampleInputEmail3" placeholder="Email">
+                    <!-- Validation Error -->
+                    <span asp-validation-for="WriterMail" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="exampleInputPassword4">Password</label>
+                    <input type="password" class="form-control" value="@Model.WriterPassword" id="exampleInputPassword4" name="WriterPassword" placeholder="Password">
+                    <!-- Validation Error -->
+                    <span asp-validation-for="WriterPassword" class="text-danger"></span>
+                </div>
+
+
+
+
+
+                <div class="form-group">
+                    <label>Image upload</label>
+                    <input type="file" name="img[]" class="file-upload-default">
+                    <div class="input-group col-xs-12">
+                        <input type="text" value="@Model.WriterImage" name="WriterImage" class="form-control file-upload-info"  placeholder="Upload Image">
+                        <span class="input-group-append">
+                            <button class="file-upload-browse btn btn-gradient-primary" type="button">Upload</button>
+                        </span>
+                    </div>
+                    <!-- Validation Error -->
+                    <span asp-validation-for="WriterImage" class="text-danger"></span>
+                </div>
+
+
+
+
+
+                <div class="form-group">
+                    <label for="exampleTextarea1">About</label>
+                    <textarea class="form-control" id="exampleTextarea1" name="WriterAbout" rows="10">@Model.WriterAbout</textarea>
+                    <!-- Validation Error -->
+                    <span asp-validation-for="WriterAbout" class="text-danger"></span>
+                </div>
+
+
+                <button type="submit" class="btn btn-gradient-primary mr-2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

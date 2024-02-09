@@ -33,5 +33,6 @@ namespace DataAccessLayer.Contexts
         public DbSet<Writer> Writers { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<NewLetter> NewLetters { get; set; }
+        public DbSet<BlogRayting> BlogRaytings { get; set; }
     }
 }

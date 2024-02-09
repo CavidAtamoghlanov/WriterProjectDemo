@@ -29,7 +29,7 @@ namespace CoreDemoProject.Controllers
             {
                 writer.WriterStatus = true;
                 writer.WriterAbout = "Deneme";
-                _writerManager.WriterAdd(writer);
+                _writerManager.TAdd(writer);
                 return RedirectToAction("Index", "Blog");
             }
             else
