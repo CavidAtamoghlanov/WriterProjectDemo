@@ -1,12 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer.Conctrets;
+using DataAccessLayer.MyEntityFramework;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CoreDemoProject.ViewComponents.Writer
 {
     public class WriterMessageNotification:ViewComponent
     {
+        MessageManager MessageManager = new MessageManager(new EfMessageRepository());
         public IViewComponentResult Invoke()
         {
-            return View();
+            string p;
+            p = "cavid@gmail.com";
+            var messageList = MessageManager.GetInboxListByWriter(p);
+            return View(messageList);
         }
     }
 }
