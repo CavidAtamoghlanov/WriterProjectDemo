@@ -1,11 +1,14 @@
 ﻿using BusinessLayer.Conctrets;
 using DataAccessLayer.Contexts;
 using DataAccessLayer.MyEntityFramework;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 
 namespace CoreDemoProject.Controllers
 {
+
+    [Authorize]
     public class DashBoardController : Controller
     {
         BlogManager BlogManager = new BlogManager(new EfBlogRepository());

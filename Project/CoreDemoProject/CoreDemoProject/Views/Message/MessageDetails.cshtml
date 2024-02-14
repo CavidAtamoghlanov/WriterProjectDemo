@@ -1,0 +1,33 @@
+﻿@model EntityLayer.Concretes.Message2
+@{
+    ViewData["Title"] = "MessageDetails";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+<h1>Message Details</h1>
+
+
+    <div class="form-group">
+    <label for="MessageID">Message Id</label>
+    <input type="text" value="@Model.MessageID" class="form-control" id="MessageID" name="MessageID" placeholder="Blog Basliqi">
+        <!-- Validation Message -->
+    <span asp-validation-for="MessageID" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+    <label for="Subject">Message Subject </label>
+    <input type="text" value="@Model.Subject" class="form-control" id="Subject" name="Subject" placeholder="Blog Basliqi">
+        <!-- Validation Message -->
+    <span asp-validation-for="Subject" class="text-danger"></span>
+    </div>
+
+<div class="form-group">
+    <label for="MessageDetails">Message Details </label>
+    <textarea type="text" class="form-control" id="MessageDetails" name="MessageDetails" placeholder="Blog Basliqi" rows="18">@Model.MessageDetails</textarea>
+    <!-- Validation Message -->
+    <span asp-validation-for="MessageDetails" class="text-danger"></span>
+</div>
+
+
+<a href="/Blog/BlogAdd/" class="btn btn-primary">Geri qayit</a>
+

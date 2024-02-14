@@ -21,6 +21,8 @@ namespace EntityLayer.Concretes
 
         // Writer has many Blogs
         public ICollection<Blog> Blogs { get; set; } 
+        public ICollection<Message2> WriterSender { get; set; }
+        public ICollection<Message2> WriterReceiver { get; set; }
    
     }
 }

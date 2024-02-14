@@ -26,6 +26,26 @@ namespace DataAccessLayer.Contexts
             base.OnConfiguring(optionsBuilder);
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+            modelBuilder.Entity<Message2>()
+                .HasOne(x => x.Sender)
+                .WithMany(x => x.WriterSender)
+                .HasForeignKey(x => x.SenderId)
+                .OnDelete(DeleteBehavior.ClientSetNull);
+
+            modelBuilder.Entity<Message2>()
+                .HasOne(x => x.Receiver)
+                .WithMany(x => x.WriterReceiver)
+                .HasForeignKey(x => x.ReceiverId)
+                .OnDelete(DeleteBehavior.ClientSetNull) ;
+
+
+            base.OnModelCreating(modelBuilder);
+        }
+
+
         public DbSet<About> Abouts { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Category> Categories { get; set; }
@@ -36,6 +56,8 @@ namespace DataAccessLayer.Contexts
         public DbSet<BlogRayting> BlogRaytings { get; set; }
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Message> Messages { get; set; }
+
+        public DbSet<Message2> Message2s { get; set; }
 
     }
 }

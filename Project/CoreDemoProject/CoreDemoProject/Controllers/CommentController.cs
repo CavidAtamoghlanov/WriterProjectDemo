@@ -6,6 +6,7 @@ using System;
 
 namespace CoreDemoProject.Controllers
 {
+
     public class CommentController : Controller
     {
         CommentManager commentManager = new CommentManager(new EfCommentRepository());
