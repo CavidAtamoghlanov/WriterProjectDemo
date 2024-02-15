@@ -25,12 +25,19 @@
         <tr>
             <td>@item.CategoryID</td>
             <td>@item.CategoryName</td>
-            <td><a class="btn btn-danger" href="#">Passiv yap</a></td>
+            
+            <td><a class="btn btn-danger" href="/Admin/Category/CategoryDelete/@item.CategoryID" id="DeleteBtn" onclick="return confirm('Silmek istediyine eminsen');">Passiv yap</a></td>
+
+
+
             <td><a class="btn btn-warning" href="#">Aktive yap</a></td>
             <td><a class="btn btn-success" href="#">Duzenle</a></td>
         </tr>
     }
 
 </table>
-<br/>
+<br />
+<a href="/Admin/Category/AddCategory/" class="btn btn-primary">Yeni kategory</a>
+<br />
+
 @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))

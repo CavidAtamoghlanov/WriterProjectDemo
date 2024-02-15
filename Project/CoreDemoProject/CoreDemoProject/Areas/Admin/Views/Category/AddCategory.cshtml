@@ -1,0 +1,34 @@
+﻿@using EntityLayer.Concretes
+@model Category
+
+
+@{
+    ViewData["Title"] = "AddCategory";
+    Layout = "~/Views/Shared/AminLayout.cshtml";
+}
+
+<h1>AddCategory</h1>
+
+
+
+
+<form asp-action="AddCategory" asp-controller="Category" method="POST">
+
+    <div class="form-group">
+        <label for="CategoryName">Name</label>
+        <input type="text" class="form-control" id="CategoryName" name="CategoryName" placeholder="Blog Basliqi">
+        <!-- Validation Message -->
+        <span asp-validation-for="CategoryName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="CategoryDescription">Description </label>
+        <textarea class="form-control" id="CategoryDescription" name="CategoryDescription" rows="15"></textarea>
+        <!-- Validation Message -->
+        <span asp-validation-for="CategoryDescription" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Gonder</button>
+
+</form>
+
