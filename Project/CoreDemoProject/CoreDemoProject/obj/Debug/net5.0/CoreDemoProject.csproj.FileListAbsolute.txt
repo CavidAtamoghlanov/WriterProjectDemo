@@ -572,3 +572,9 @@ C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProje
 C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\bin\Debug\net5.0\System.IO.Packaging.dll
 C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Blog\BlogListExcel.cshtml.g.cs
 C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Widget\Index.cshtml.g.cs
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\Statistic_1\Default.cshtml.g.cs
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\Statistic_2\Default.cshtml.g.cs
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\Statistic_4\Default.cshtml.g.cs
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Chart\Index.cshtml.g.cs
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\CoreDemoProject\obj\Debug\net5.0\Razor\Areas\Admin\Views\Writer\Index.cshtml.g.cs
