@@ -1,0 +1,18 @@
+﻿@using CoreDemoProject.Controllers
+@model ClassEmployee
+@{
+    ViewData["Title"] = "EditEmployee";
+    Layout = "~/Views/Shared/AminLayout.cshtml";
+}
+
+<h1>EditEmployee</h1>
+<br/>
+
+<form method="post" asp-action="EditEmployee" asp-controller="EmployeeTest">
+    <input type="hidden" name="Id" asp-for="@Model.Id" />
+    <label>Ad daxil edin</label>
+    <input type="text" name="Name" asp-for="@Model.Name" class="form-control" />
+    <br />
+    <button type="submit" class="btn btn-primary">Edit</button>
+</form>
+
