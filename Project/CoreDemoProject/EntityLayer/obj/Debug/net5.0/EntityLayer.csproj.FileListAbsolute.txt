@@ -33,3 +33,4 @@ C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\o
 C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
 C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
 C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\Cavid\Documents\WriterProjectDemo\Project\CoreDemoProject\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
