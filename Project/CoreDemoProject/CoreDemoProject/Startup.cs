@@ -30,7 +30,12 @@ namespace CoreDemoProject
         {
         
             services.AddDbContext<MyAppDbContext>();
-            services.AddIdentity<AppUser, AppRole>()
+            services.AddIdentity<AppUser, AppRole>(x =>
+            {
+                x.Password.RequireUppercase = false;
+                x.Password.RequireNonAlphanumeric=false;
+
+            })
                 .AddEntityFrameworkStores<MyAppDbContext>();
 
             services.AddControllersWithViews();
