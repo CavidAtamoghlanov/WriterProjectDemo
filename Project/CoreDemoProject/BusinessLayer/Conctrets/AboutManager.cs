@@ -16,6 +16,10 @@ namespace BusinessLayer.Conctrets
         public AboutManager(IAboutDal aboutDal)
         {
             _aboutDal = aboutDal;
+            _aboutDal = aboutDal;
+            _aboutDal = aboutDal;
+            _aboutDal = aboutDal;
+            _aboutDal = aboutDal;
         }
 
    

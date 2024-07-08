@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\javid.at\\Desktop\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\javid.at\\Desktop\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\javid.at\\Desktop\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\Cavid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cavid\\Documents\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\javid.at\\Desktop\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\javid.at\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\javid.at\\Desktop\\WriterProjectDemo\\Project\\CoreDemoProject\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Cavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\javid.at\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
